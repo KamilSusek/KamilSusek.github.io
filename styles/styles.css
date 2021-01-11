@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: azure;
+  color: black;
+}
+
+nav {
+  padding: 0.5rem;
+  box-shadow: 1px 2px 4px -2px black;
+  min-height: 5vh;
+  background-color: darkslateblue;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.nav__item {
+  padding: 6px;
+}
+
+div.nav__item:hover {
+  transition: 1s all;
+  background-color: slateblue;
+  border-radius: 15px;
+}
+
+.nav__item a {
+  color: white;
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+ul.projects__list {
+  display: flex;
+  flex-direction: column;
+}
+
+li.projects__item {
+  margin: 1% 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+div.project__card {
+  padding: 8px;
+  width: 30vw;
+  border: 1px solid black;
+  color: black;
+  border-radius: 8px;
+  margin: 4px 8px;
+}
+
+.background__picture {
+  height: 100vh;
+  background-image: url('../images/wooden-texture.jpg');
+  background-size: cover;
+  opacity: 0.9;
+  resize: none;
+}
+
+div.background__title {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.background__title  {
+  color: white;
+}
+
+footer {
+  background-color: darkslateblue;
+  height: 8vh;
+}
+
+.normal-logo {
+  width: 140px;
+  height: 140px;
+}
+
+.node-logo {
+  width: 160px;
+  height: 100px;
+}
